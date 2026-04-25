@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS monthly_mrr;
+
+CREATE TABLE monthly_mrr AS
+
 WITH month_ends AS (
     SELECT
         month_start,
