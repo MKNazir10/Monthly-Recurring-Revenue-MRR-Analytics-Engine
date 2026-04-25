@@ -30,6 +30,8 @@ This project builds a SQL-based analytics engine that:
 ---
 ## 3. Data Model
 
+![MRR Data Flow Architecture](diagram/diagram.png)
+---
 ```text
 Raw Events Layer
 ----------------
