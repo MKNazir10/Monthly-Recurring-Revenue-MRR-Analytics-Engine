@@ -72,8 +72,9 @@ movement classification
 
 ## 4. Dashboard Preview
 
-![Dashboard](./diagrams/dashboard.png)
+![Dashboard](diagram/dashboard.png)
 
+---
 
 ## 5. Approach
 
