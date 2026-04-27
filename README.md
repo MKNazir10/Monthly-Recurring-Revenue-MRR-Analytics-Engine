@@ -69,7 +69,13 @@ movement classification
 
 ```
 ---
-## 4. Approach
+
+## 4. Dashboard Preview
+
+![Dashboard](./diagrams/dashboard.png)
+
+
+## 5. Approach
 
 This project uses a **month-end snapshot approach**:
 
@@ -82,7 +88,7 @@ This project uses a **month-end snapshot approach**:
 
 ---
 
-## 5. Key SQL Concepts Used
+## 6. Key SQL Concepts Used
 
 - Window functions: `LEAD()`, `LAG()`, `MAX()`  
 - Partitioning (`PARTITION BY`)  
@@ -93,7 +99,7 @@ This project uses a **month-end snapshot approach**:
 
 ---
 
-## 6. Metrics Explained
+## 7. Metrics Explained
 
 - **New MRR** → First-time subscription  
 - **Reactivation MRR** → Subscription after churn  
@@ -104,7 +110,7 @@ This project uses a **month-end snapshot approach**:
 
 ---
 
-## 7. Sample Output
+## 8. Sample Output
 
 | user_id | month_start | MRR | previous | movement | type |
 |--------|------------|----|---------|---------|------|
@@ -116,7 +122,7 @@ This project uses a **month-end snapshot approach**:
 
 ---
 
-## 8. How to Run
+## 9. How to Run
 
 ### Step 1: Create Base Tables
 
